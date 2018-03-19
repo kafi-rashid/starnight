@@ -1,0 +1,79 @@
+/*
+	StarNight
+	Owner: kafi.rashid@gmail.com
+*/
+
+* {
+	box-sizing: border-box;
+	vertical-align: top;
+	font-family: 'Raleway', sans-serif;
+	color: rgba(255, 255, 255, 0.3);
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #222222;
+}
+#sky {
+	height: 100%;
+	width: 80%;
+	background-image: url('sky.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	display: inline-block;
+}
+#stars {
+	height: 80%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.star {
+	height: 3px;
+	width: 3px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: #a1a17d;
+	transition: 0.3s;
+	opacity: 0.3;
+}
+#info {
+	float: right;
+	width: 20%;
+	padding: 40px;
+	display: inline-block;
+	text-transform: uppercase;
+	text-align: right;
+}
+#info strong {
+	font-weight: 700;
+	font-size: 32px;
+}
+#info .title, #info .credit {
+	line-height: 1;
+	padding: 0;
+	margin: 0;
+}
+#info .title {
+	font-size: 26px;
+}
+#info .credit {
+	letter-spacing: 1px;
+	font-size: 10px;
+	position: absolute;
+	bottom: 40px;
+	right: 40px; 
+}
+#info .credit a {
+	text-decoration: none;
+}
