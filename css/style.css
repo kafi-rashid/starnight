@@ -31,7 +31,10 @@ body {
 	display: inline-block;
 }
 #stars {
-	height: 80%;
+	overflow: hidden;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	height: 95%;
 	width: 100%;
 	position: absolute;
 	top: 0;
@@ -39,8 +42,8 @@ body {
 	z-index: 1;
 }
 .star {
-	height: 3px;
-	width: 3px;
+	height: 2px;
+	width: 2px;
 	border-radius: 50%;
 	position: absolute;
 	background-color: #a1a17d;
