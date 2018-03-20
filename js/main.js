@@ -14,6 +14,6 @@ jQuery(document).ready(function(){
 	                'opacity': Math.random() * 1 - (1 * 0.1)
 	            }, 500);
 	        }
-		}, 750)
+		}, 1000)
 	});
 });
