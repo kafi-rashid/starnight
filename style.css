@@ -45,7 +45,7 @@ body {
 	position: absolute;
 	background-color: #a1a17d;
 	transition: 0.3s;
-	opacity: 0.3;
+	opacity: 0;
 }
 #info {
 	float: right;
