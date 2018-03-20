@@ -46,7 +46,7 @@ body {
 	width: 2px;
 	border-radius: 50%;
 	position: absolute;
-	background-color: #a1a17d;
+	background-color: #a1a1ad;
 	transition: 0.3s;
 	opacity: 0;
 }
